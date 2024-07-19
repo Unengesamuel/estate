@@ -1,0 +1,242 @@
+body {
+    font-style: arial;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(209, 207, 207);
+}
+
+.discover {
+    font-weight: 500;
+}
+
+.nav_top p span a {
+    color: black;
+}
+
+.X {
+    margin-right: -100px;
+    background-color: gray;
+    border-radius: 1000px;
+    height: 30px;
+    width: 30px;
+}
+
+.nav_bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.diff {
+    color: gray;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    background-color: black;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;    
+}
+
+.contact p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact img {
+    background-color: white;
+    border-radius: 500px;
+}
+
+/* CENTER DESIGN */
+
+.center_con {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.c_left,
+.c_right {
+    height: 400px;
+    width: 500px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}
+
+.top_gray {
+    background-color: gray;
+    height: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.house {
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.text {
+    margin-left: 3rem;
+}
+
+.text h1 {
+    width: 250px;
+}
+
+.not_buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.click_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    background-color: black;
+    padding: 0px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.click_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.click_left img {
+    background-color: gray;
+    border-radius: 500px;
+}
+
+.click_right img {
+    background-color: black;
+    border-radius: 500px;
+}
+
+.click_left p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.click_right p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.about_house {
+    width: 300px;
+    color: rgb(66, 65, 65);
+}
+
+.expose {
+    color: gray;
+}
+
+/* BOTTON DESIGN */
+
+.botton_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton_con_in {
+    width: 1000px;
+    height: 90px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.swim {
+    display: flex;
+    gap: 10px;
+}
+
+.lorem {
+    margin-top: 10px;
+}
+
+.pool {
+    margin: 0;
+}
+
+.pool_icon {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.pool_icon div {
+    width: 50px;
+    height: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: gray;
+}
+
+.swim_text p {
+    color: gray;
+}
